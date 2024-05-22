@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keller Tree- Portfolio</title>
+    <link rel="stylesheet" href="styleSheets/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Keller Tree</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is where you can learn more about me and my work.</p>
+            <p>I am an academically trained entry-level developer with analytical talent. My personal and academic projects can be viewed at: <a href="https://github.com/kellertree">https://github.com/kellertree</a></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Analytical thinking and innovation</li>
+                <li>Active learning and learning strategies</li>
+                <li>Complex problem-solving</li>
+                <li>Critical thinking and analysis</li>
+                <li>Creativity, originality, and initiative</li>
+                <li>Leadership and social influence</li>
+                <li>Reasoning, problem-solving, ideation</li>
+                <li>Emotional intelligence</li>
+                <li>Technology designs and programming</li>
+                <li>Technology use, monitoring, and control</li>
+                <li>Systems analysis and evaluation</li>
+                <li>Troubleshooting and user experience</li>
+                <li>Service orientation</li>
+                <li>Persuasion and negotiation</li>
+                <li>Resilience</li>
+                <li>Stress tolerance, and flexibility</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Associate of Science, Mathematics and Technology</p>
+            <p>Madison Area Technical College, Madison, WI</p>
+            <p>August 2020 – December 2022</p>
+            <p>Data Analytics Social Sciences Certificate</p>
+            <p>Madison Area Technical College, Madison, WI</p>
+            <p>January 2023 – May 2023</p>
+            <p>Data Science Certificate</p>
+            <p>Coursera, Online</p>
+            <p>November 2022 – September 2023</p>
+            <p>Continued Education / Additional Coursework:</p>
+            <ul>
+                <li>Python programming</li>
+                <li>Website development</li>
+                <li>Introduction to Databases</li>
+                <li>Excel I & II</li>
+                <li>IT - Information security</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <h3>Manager / Sales Associate / Operations Specialist</h3>
+            <p>Steinhafel’s Furniture, Madison, WI</p>
+            <p>6 years of experience (Current Employer)</p>
+            <p>Accomplishments:</p>
+            <ul>
+                <li>Achieved significant improvement in sales performance through strategic and analytical initiatives.</li>
+                <li>Implemented learning strategies and proactive problem-solving approaches to adapt to market dynamics and drive growth.</li>
+                <li>Demonstrated resilience, flexibility, and strong leadership in navigating challenges, while fostering a culture of creativity and service excellence.</li>
+            </ul>
+            <h3>Asset Protection Manager / Asset Protection Specialist</h3>
+            <p>Sears, Dick’s Sporting Goods, Best Buy, Madison, WI and Rockford, IL</p>
+            <p>3 years of experience</p>
+            <p>Accomplishments:</p>
+            <ul>
+                <li>Demonstrated a commitment to safeguarding company assets and minimizing loss.</li>
+                <li>Leveraged keen analytical skills and innovative strategies to implement robust security measures that effectively mitigated risks and reduced shrinkage.</li>
+                <li>Developed and executed training programs to enhance awareness of security protocols, resulting in a significant reduction in incidents and improved overall operational efficiency.</li>
+                <li>Played a key role in investigating and resolving internal and external theft cases, demonstrating strong attention to detail and adherence to legal and ethical standards.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Your projects content goes here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <!-- Your contact form or details go here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Smooth scrolling on navigation link clicks
+            $('a[href^="#"]').on('click', function (event) {
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
